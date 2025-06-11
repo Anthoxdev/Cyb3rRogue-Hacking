@@ -30,7 +30,7 @@ Como podemos observas en la imagen, están abiertos los puertos 22 y 80, que cor
 Como podemos ver existe un dominio asociado a la ip con un cuadro de inicio de sesión.
 
 
-Usamos Gobuster para realizar fuerza bruta y encontrar Subdominios asociados con un diccionario de direcciones comunes.
+Usamos Gobuster para realizar fuerza bruta y encontrar direcciones asociadas con un diccionario de direcciones comunes.
 (gobuster dir -u http://IP -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt)
 Donde:
 
@@ -40,7 +40,7 @@ dir es el modo de busca por direcciones.
 
 ![image](https://github.com/user-attachments/assets/9dbb3ff8-a6fc-47fb-91d6-eb8e37904032)
 
-El resultado arroja un subdominio llamado /server-status con status 403, es decir acceso prohibido.
+El resultado arroja un directorio llamado /server-status con status 403, es decir acceso prohibido.
 
 ![image](https://github.com/user-attachments/assets/cdac1b7d-a943-4b91-9ec8-dc750a3d075d)
 
