@@ -1,11 +1,13 @@
 TRUST.
 
-1.	Inicialización 
+1.	Inicialización
+
 Para iniciar desplegamos la máquina usando el comando de Kali Linux sudo bash para inicializar los archivos .sh y .tar
  
 ![image](https://github.com/user-attachments/assets/6c3f298c-4cb8-4653-a002-eb1a91419487)
 
 2.	Reconocimiento.
+
 Procedemos a realizar un escaneo de puertos con la herramienta nmap en la ip suministrada. Donde:
 -p- sirve para escanear los 65536 puertos TCP 
 --open se usa para mostrar solo los puertos abiertos
@@ -55,6 +57,7 @@ Encontramos estas credenciales, con ellas procederé a iniciar sesión.
 ![image](https://github.com/user-attachments/assets/d9a84573-7162-414c-9875-581d128a0bd0)
 
 5.	Post-explotación
+
 Una vez dentro, buscamos binarios SUID.
 Como no encontramos nada, usamos  sudo -l para ver qué comandos podemos usar con sudo.
 
