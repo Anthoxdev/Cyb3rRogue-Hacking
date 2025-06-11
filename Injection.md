@@ -1,6 +1,7 @@
 INJECTION.
 
 1.	Inicializar.
+   
 Para iniciar desplegamos la máquina usando el comando de Kali Linux sudo bash para inicializar los archivos .sh y .tar
 
  ![image](https://github.com/user-attachments/assets/43fe8e18-093e-404e-a97d-a84a27aae8c1)
