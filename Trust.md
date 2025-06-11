@@ -1,3 +1,5 @@
+TRUST.
+
 1.	Inicialización 
 Para iniciar desplegamos la máquina usando el comando de Kali Linux sudo bash para inicializar los archivos .sh y .tar
  
