@@ -28,8 +28,8 @@ Usamos la herramienta hydra para buscar combinaciones de usuario y contraseña q
 ![image](https://github.com/user-attachments/assets/8453565e-ed48-4fae-9566-786094a72304)
  
 En este caso la estructura de hydra tiene 
--L que significa buscar varios usuarios (luego la biblioteca de usuarios).
--P que significa buscar varias contraseñas (luego la biblioteca de contraseñas).
+-L que significa buscar varios usuarios (luego el diccionario de usuarios).
+-P que significa buscar varias contraseñas (luego el diccionario de contraseñas).
 -t es la abreviatura de thread y el 4 son los intentos concurrentes al mismo tiempo.
 
 4. Explotación.
