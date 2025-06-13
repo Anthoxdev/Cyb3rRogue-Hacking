@@ -30,12 +30,12 @@ Por lo que vi conveniente realizar un  Fuzzing para lo que emplearé la herramie
  
 ![image](https://github.com/user-attachments/assets/6784a090-dd7a-4da8-8fd0-5b03521f36d9)
 
-Al no encontrar nada concluyente ni de utilidad, busqué posibles subdominios PHP con la flag -x
+Al no encontrar nada concluyente ni de utilidad, busqué posibles subdirectorios PHP con la flag -x
 
 ![image](https://github.com/user-attachments/assets/ea76499d-8092-41aa-8185-66d92a844208)
 
  
-Aquí podemos notar que tenemos un subdominio llamado secret.php así que procedemos a revisarlo. 
+Aquí podemos notar que tenemos un subdirectorio llamado secret.php así que procedemos a revisarlo. 
  
 ![image](https://github.com/user-attachments/assets/1f7b58f3-b645-42e1-9d50-01e48fd1bcc7)
 
