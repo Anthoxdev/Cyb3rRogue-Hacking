@@ -27,7 +27,7 @@ Encontramos abiertos el puerto 22 (SSH) y el 80 (HTTP), por lo que por protocolo
  
 Solo aparece una imagen de un kínder sorpresa, y al inspeccionar elementos no aparece nada especial, solo el código fuente de la imagen.
 
-Lo único que se me ocurre es usar estenografía en la imagen para ver si hay algún mensaje encriptado dentro de ella.
+Lo único que se me ocurre es usar estegoanálisis en la imagen para ver si hay algún mensaje encriptado dentro de ella.
 Con el comando `steghide` donde `-sf` le dice a steghide:
 "Usa este archivo como portador (stegofile) del contenido oculto."
 
@@ -38,10 +38,10 @@ Vemos que nos dio un archivo .txt llamado secret, por lo que lo abriremos con `c
 ![imagen](https://github.com/user-attachments/assets/119ed5c1-ce10-46cf-8aae-35b07e67dc20)
 
 Efectivamente, nos dieron una pista, debemos seguir buscando en la imagen.
-Usemos otro comando de estenografía.
-Dentro de mis apuntes, tengo un apartado completo con comando de estenografía en orden de uso bajo mi criterio.
+Usemos otro comando de estegoanálisis.
+Dentro de mis apuntes, tengo un apartado completo con comandos de esteganografía en orden de uso bajo mi criterio.
 
-## 🛠️ Herramientas Básicas
+Lista de comandos:
 
 | Comando                         | Descripción                                 |
 |--------------------------------|---------------------------------------------|
