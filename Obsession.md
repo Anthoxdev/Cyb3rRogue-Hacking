@@ -59,6 +59,6 @@ Nota:
 Usando otros métodos, se podía llegar al usuario russoski
 por ejemplo, usando `gobuster` encontrarán directorios con pistas que dirigen a ese usuario.
 
-si usan a flag `-sCV`en el nmap, podrán ver que en ftp hay 2 archivos que con `get` podrán descargar a su dispositivo local y en ellos, está el usuario russoski.
+si usan la flag `-sCV`en el nmap, podrán ver que en ftp hay 2 archivos que con `get` podrán descargar a su dispositivo local y en ellos, está el usuario russoski.
 
 ¡¡¡¡Ánimo!!!!
